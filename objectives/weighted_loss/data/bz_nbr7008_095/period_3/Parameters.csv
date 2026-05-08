@@ -1,0 +1,10 @@
+Name,Value,Description
+NumPatterns,100,Number of patterns
+NumKnives,12,Number of knives
+MinEdgeTrim,5.0,Minimum edge trim mm (each edge)
+MinStripLength,10.0,Minimum length of a strip m
+MinCoilLength,200.0,Minimum length of a coil m
+MinRetailLength,5.0,Minimum length of a retail strip m
+Density,7870,Steel density kg/m3
+Thickness,0.95,Steel thickness mm
+TimeLimit,00:10,Model time limit hh:mm
