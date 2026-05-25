@@ -1,11 +1,9 @@
 import datetime as dt
-from pathlib import Path
-import shutil
-
 import json
 import logging
 import os
 import re
+import shutil
 from pathlib import Path
 
 import gurobipy as gp
@@ -38,8 +36,8 @@ dirs = [
 objective_types = [
     "weighted_loss",
     "new_coils_value",
-    "non_reusable_loss"
-]
+    # "non_reusable_loss"
+]0
 
 STATUS_MAP = {
     GRB.LOADED: "Modelo carregado mas não otimizado",
@@ -207,8 +205,8 @@ for objective_type in objective_types:
             env = gp.Env(empty=True)
             env.setParam('LogFile', f'output/{data_folder}/{period}/gurobi.log')
             env.setParam('LogToConsole', 0)
-            env.setParam('TimeLimit', parameters['TimeLimit'].seconds)
-            # env.setParam('TimeLimit', 5)
+            # env.setParam('TimeLimit', parameters['TimeLimit'].seconds)
+            env.setParam('TimeLimit', 5)
             env.start()
 
             model = gp.Model(name='slitting', env=env)
@@ -596,6 +594,7 @@ for objective_type in objective_types:
                 end_loss = gp.LinExpr(0.0)
                 rolled = gp.LinExpr(0.0)
                 scrap_p = gp.LinExpr(0.0)
+                use_v = gp.LinExpr(0.0)
 
                 for coil in coils.itertuples():
                     c = coil.Id
@@ -617,6 +616,7 @@ for objective_type in objective_types:
 
                             if coil.Processed:
                                 scrap_p -= coil.Value * u1[p, c, s]
+                                use_v += coil.Value * u1[p, c, s]
                             else:
                                 retail_v += coil.Value * ur[p, c, s]
                                 scrap_v += coil.Value * us[p, c, s]
@@ -625,19 +625,26 @@ for objective_type in objective_types:
                                         - coil.Value * u1[p, c, s]
                                         - coil.Value * u2[p, c, s]
                                 )
+                                use_v += coil.Value * u1[p, c, s]
 
+                # Aqui assumimos coeficiente unitário para o emprego de materia-prima
+                # sucata tem coeficiente 8
+                # As sobras possuem  coeficiente intermediário (2 ou 4).
+                # Precisamos definir que sobras possuem coeficiente 2 e que sobras possuem coeficiente 4
                 objective_coefficients = {
-                    'edge_trim': 1,
-                    'retail_y': 1,
-                    'scrap_y': 4,
-                    'retail_v': 1,
-                    'scrap_v': 4,
-                    'endloss': 1,
+                    'use_v': 1,
+                    'edge_trim': 8,
+                    'retail_y': 2,
+                    'scrap_y': 8,
+                    'retail_v': 2,
+                    'scrap_v': 8,
+                    'endloss': 8,
                     'rolled_leftover': 2,
-                    'scrap_processed': 4
+                    'scrap_processed': 8
                 }
 
                 cost.add(
+                    objective_coefficients['use_v'] * use_v +
                     objective_coefficients['edge_trim'] * edge_trim +
                     objective_coefficients['retail_y'] * retail_y +
                     objective_coefficients['scrap_y'] * scrap_y +
@@ -656,91 +663,8 @@ for objective_type in objective_types:
                     if coil.Processed == 0:
                         cost += coil.Weight * coil.Value * alpha[c, 1]
 
-            elif objective_type == "non_reusable_loss":
-
-                for coil in coils.itertuples():
-                    c = coil.Id
-
-                    if coil.Processed:
-                        cost += coil.Weight * coil.Value
-
-                        for (_, s) in pairs.select(c, '*'):
-                            for part in parts.itertuples():
-                                p = part.Code
-                                cost -= coil.Value * u1[p, c, s]
-
-                    else:
-                        cost += coil.Value * e[c]
-                        cost += coil.Value * zs[c]
-
-                        for (_, s) in pairs.select(c, '*'):
-                            for part in parts.itertuples():
-                                p = part.Code
-
-                                cost += coil.Value * us[p, c, s]
-                                cost += (
-                                        coil.Value * u[p, c, s]
-                                        - coil.Value * u1[p, c, s]
-                                        - coil.Value * u2[p, c, s]
-                                )
-
             else:
                 raise ValueError(f"Unknown objective_type: {objective_type}")
-
-            model.setObjective(cost, GRB.MINIMIZE)
-
-            cost = gp.LinExpr(0.0)
-
-            edge_trim = gp.LinExpr(0.0)
-            retail_y = gp.LinExpr(0.0)
-            scrap_y = gp.LinExpr(0.0)
-            retail_v = gp.LinExpr(0.0)
-            scrap_v = gp.LinExpr(0.0)
-            end_loss = gp.LinExpr(0.0)
-            rolled = gp.LinExpr(0.0)
-            scrap_p = gp.LinExpr(0.0)  # bobina reutilizavel nao utilizada
-
-            for coil in coils.itertuples():
-                c = coil.Id
-                if coil.Processed:
-                    scrap_p += coil.Weight * coil.Value
-                else:
-                    edge_trim += coil.Value * e[c]
-                    retail_y += coil.Value * zr[c]
-                    scrap_y += coil.Value * zs[c]
-                    rolled += coil.Weight * coil.Value * alpha[c, 1] - coil.WeightPerM2 * coil.Width * coil.Value * x[c]
-
-                for (_, s) in pairs.select(c, '*'):
-                    for part in parts.itertuples():
-                        p = part.Code
-                        if coil.Processed:
-                            scrap_p -= coil.Value * u1[p, c, s]
-                        else:
-                            retail_v += coil.Value * ur[p, c, s]
-                            scrap_v += coil.Value * us[p, c, s]
-                            end_loss += coil.Value * u[p, c, s] - coil.Value * u1[p, c, s] - coil.Value * u2[p, c, s]
-
-            objective_coefficients = {
-                'edge_trim': 1,
-                'retail_y': 1,
-                'scrap_y': 4,
-                'retail_v': 1,
-                'scrap_v': 4,
-                'endloss': 1,
-                'rolled_leftover': 2,
-                'scrap_processed': 4
-            }
-
-            cost.add(
-                objective_coefficients['edge_trim'] * edge_trim +
-                objective_coefficients['retail_y'] * retail_y +
-                objective_coefficients['scrap_y'] * scrap_y +
-                objective_coefficients['retail_v'] * retail_v +
-                objective_coefficients['scrap_v'] * scrap_v +
-                objective_coefficients['endloss'] * end_loss +
-                objective_coefficients['rolled_leftover'] * rolled +
-                objective_coefficients['scrap_processed'] * scrap_p
-            )
 
             model.setObjective(cost, GRB.MINIMIZE)
 
