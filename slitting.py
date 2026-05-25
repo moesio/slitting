@@ -37,7 +37,7 @@ objective_types = [
     "weighted_loss",
     "new_coils_value",
     # "non_reusable_loss"
-]0
+]
 
 STATUS_MAP = {
     GRB.LOADED: "Modelo carregado mas não otimizado",
