@@ -205,8 +205,8 @@ for objective_type in objective_types:
             env = gp.Env(empty=True)
             env.setParam('LogFile', f'output/{data_folder}/{period}/gurobi.log')
             env.setParam('LogToConsole', 0)
-            # env.setParam('TimeLimit', parameters['TimeLimit'].seconds)
-            env.setParam('TimeLimit', 5)
+            env.setParam('TimeLimit', parameters['TimeLimit'].seconds)
+            # env.setParam('TimeLimit', 5)
             env.start()
 
             model = gp.Model(name='slitting', env=env)
@@ -577,10 +577,6 @@ for objective_type in objective_types:
                             model.addConstr(
                                 mu[p1, c, s1] + mu.sum(p2_list, c, s2) <= 1, name=f"valid[{p1},{c},{s1},{s2}]"
                             )
-
-            # # objective_type = "weighted_loss"
-            # objective_type = "new_coils_value"
-            # # objective_type = "non_reusable_loss"
 
             cost = gp.LinExpr(0.0)
 
