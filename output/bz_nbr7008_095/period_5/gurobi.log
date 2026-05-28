@@ -1,5 +1,5 @@
 
-Gurobi 13.0.2 (linux64, Python) logging started Mon May 25 12:42:59 2026
+Gurobi 13.0.2 (linux64, Python) logging started Thu May 28 11:24:14 2026
 
 Set parameter LogToConsole to value 0
 Set parameter Username
@@ -63,9 +63,9 @@ H   72    80                    341257.78697 329126.223  3.55%  40.7    0s
 H  373   288                    338829.22066 329126.223  2.86%  46.3    0s
 H 1474   751                    338824.07883 329130.923  2.86%  52.4    0s
 H 1543   777                    336635.82530 329130.923  2.23%  52.7    0s
- 15255   986 336580.023   18   15 336635.825 331930.404  1.40%  79.3    5s
+ 14805   978 334005.338   14   58 336635.825 331930.404  1.40%  79.1    5s
  34048  2064 333474.089   35   14 336635.825 333175.808  1.03%  67.2   10s
- 67668  1903 334991.774   26   80 336635.825 334991.774  0.49%  60.5   15s
+ 67662  1899 334833.912   37   67 336635.825 333745.015  0.86%  60.5   15s
 
 Cutting planes:
   Gomory: 1
@@ -83,7 +83,7 @@ Cutting planes:
   RLT: 10
   Relax-and-lift: 5
 
-Explored 71017 nodes (4165748 simplex iterations) in 16.23 seconds (17.62 work units)
+Explored 71017 nodes (4165748 simplex iterations) in 16.52 seconds (17.62 work units)
 Thread count was 24 (of 24 available processors)
 
 Solution count 10: 336636 336636 338824 ... 441365

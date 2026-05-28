@@ -1,5 +1,5 @@
 
-Gurobi 13.0.2 (linux64, Python) logging started Mon May 25 12:43:40 2026
+Gurobi 13.0.2 (linux64, Python) logging started Thu May 28 11:24:54 2026
 
 Set parameter LogToConsole to value 0
 Set parameter Username
@@ -27,7 +27,7 @@ Coefficient statistics:
   RHS range        [4e-02, 2e+04]
 
 Presolve removed 11928 rows and 7955 columns
-Presolve time: 0.12s
+Presolve time: 0.13s
 Presolved: 2954 rows, 2087 columns, 14638 nonzeros
 Variable types: 1343 continuous, 744 integer (743 binary)
 
@@ -89,8 +89,8 @@ H    0     0                    231129.27292 212925.909  7.88%     -    0s
      0     0 217601.168    0  123 231129.273 217601.168  5.85%     -    0s
      0     0 217601.168    0  121 231129.273 217601.168  5.85%     -    0s
      0     0 217601.168    0  114 231129.273 217601.168  5.85%     -    0s
-     0     0 218230.004    0   78 231129.273 218230.004  5.58%     -    0s
-     0     0 218230.004    0   98 231129.273 218230.004  5.58%     -    0s
+     0     0 218230.004    0   78 231129.273 218230.004  5.58%     -    1s
+     0     0 218230.004    0   98 231129.273 218230.004  5.58%     -    1s
      0     0 218230.004    0   99 231129.273 218230.004  5.58%     -    1s
      0     0 218232.030    0   96 231129.273 218232.030  5.58%     -    1s
      0     0 218232.030    0   97 231129.273 218232.030  5.58%     -    1s
@@ -104,8 +104,8 @@ H    0     0                    227891.05430 219307.233  3.77%     -    1s
      0     0 219307.233    0   77 227891.054 219307.233  3.77%     -    1s
      0     0 219307.233    0   72 227891.054 219307.233  3.77%     -    1s
      0     2 219307.233    0   61 227891.054 219307.233  3.77%     -    1s
-  6530  1655 221256.199   15   35 227891.054 219759.359  3.57%  89.2    5s
- 14460   988 226099.415   34   33 227891.054 225495.961  1.05%  68.3   10s
+  6528  1654 224661.454   21   72 227891.054 219759.359  3.57%  89.2    5s
+ 12793  1164     cutoff   36      227891.054 223488.940  1.93%  71.7   10s
 
 Cutting planes:
   Learned: 10
@@ -123,7 +123,7 @@ Cutting planes:
   RLT: 5
   Relax-and-lift: 14
 
-Explored 22375 nodes (1251379 simplex iterations) in 11.43 seconds (12.56 work units)
+Explored 22375 nodes (1251379 simplex iterations) in 11.92 seconds (12.56 work units)
 Thread count was 24 (of 24 available processors)
 
 Solution count 8: 227891 227891 227930 ... 272454

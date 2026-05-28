@@ -1,5 +1,5 @@
 
-Gurobi 13.0.2 (linux64, Python) logging started Mon May 25 12:42:53 2026
+Gurobi 13.0.2 (linux64, Python) logging started Thu May 28 11:24:08 2026
 
 Set parameter LogToConsole to value 0
 Set parameter Username
@@ -27,7 +27,7 @@ Coefficient statistics:
   RHS range        [1e-01, 3e+04]
 
 Presolve removed 7107 rows and 4913 columns
-Presolve time: 0.06s
+Presolve time: 0.07s
 Presolved: 2223 rows, 1603 columns, 9013 nonzeros
 Variable types: 1010 continuous, 593 integer (569 binary)
 
@@ -101,7 +101,7 @@ Cutting planes:
   Relax-and-lift: 10
   BQP: 1
 
-Explored 1636 nodes (51461 simplex iterations) in 1.58 seconds (1.53 work units)
+Explored 1636 nodes (51461 simplex iterations) in 1.62 seconds (1.53 work units)
 Thread count was 24 (of 24 available processors)
 
 Solution count 9: 358106 364627 370634 ... 397164
