@@ -62,9 +62,6 @@ STATUS_MAP = {
 for scrap_coef in {8}:
     for reusable_coef_y in {2, 4}:
         for reusable_coef_v in {2, 4}:
-            if reusable_coef_y == 2 and reusable_coef_v == 2:
-                continue  # já foi gravado. Depois que rodar os outros, remover este if
-
             # Aqui assumimos coeficiente unitário para o emprego de materia-prima
             # sucata tem coeficiente 8
             # As sobras possuem  coeficiente intermediário (2 ou 4).
