@@ -925,7 +925,7 @@ for scrap_coef in {8}:
                 ]
                 coefs = ",".join(map(str, objective_coefficients.values()))
 
-                destination = Path(f"{coefs}/objectives/{objective_type}")
+                destination = Path(f"results_by_coefs/{coefs}/objectives/{objective_type}")
                 destination.mkdir(parents=True, exist_ok=True)
 
                 for src in sources:
