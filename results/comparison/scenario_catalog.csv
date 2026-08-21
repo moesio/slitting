@@ -1,0 +1,10 @@
+scenario,objective,configuration,retail_y_coefficient,retail_v_coefficient,rolled_leftover_coefficient
+NCV,new_coils_value,default,,,
+WL-y2-v2-r2,weighted_loss,retail_y_2__retail_v_2__rolled_leftover_2,2,2,2
+WL-y2-v2-r4,weighted_loss,retail_y_2__retail_v_2__rolled_leftover_4,2,2,4
+WL-y2-v4-r2,weighted_loss,retail_y_2__retail_v_4__rolled_leftover_2,2,4,2
+WL-y2-v4-r4,weighted_loss,retail_y_2__retail_v_4__rolled_leftover_4,2,4,4
+WL-y4-v2-r2,weighted_loss,retail_y_4__retail_v_2__rolled_leftover_2,4,2,2
+WL-y4-v2-r4,weighted_loss,retail_y_4__retail_v_2__rolled_leftover_4,4,2,4
+WL-y4-v4-r2,weighted_loss,retail_y_4__retail_v_4__rolled_leftover_2,4,4,2
+WL-y4-v4-r4,weighted_loss,retail_y_4__retail_v_4__rolled_leftover_4,4,4,4
