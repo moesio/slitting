@@ -1,5 +1,5 @@
 
-Gurobi 13.0.2 (linux64, Python) logging started Thu Aug 13 19:00:07 2026
+Gurobi 13.0.2 (linux64, Python) logging started Sat Aug 22 21:26:19 2026
 
 Set parameter LogToConsole to value 0
 Set parameter Username
@@ -31,7 +31,7 @@ Presolve time: 0.12s
 Presolved: 2973 rows, 2104 columns, 14902 nonzeros
 Variable types: 1352 continuous, 752 integer (752 binary)
 
-Root relaxation: objective 1.790518e+05, 2101 iterations, 0.06 seconds (0.12 work units)
+Root relaxation: objective 1.790518e+05, 2101 iterations, 0.07 seconds (0.12 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
@@ -78,7 +78,7 @@ H    0     0                    221284.43070 183548.137  17.1%     -    0s
      0     0 183549.347    0   74 221284.431 183549.347  17.1%     -    0s
      0     0 183549.347    0   71 221284.431 183549.347  17.1%     -    0s
      0     0 183549.347    0   56 221284.431 183549.347  17.1%     -    0s
-     0     0 183549.347    0   45 221284.431 183549.347  17.1%     -    0s
+     0     0 183549.347    0   45 221284.431 183549.347  17.1%     -    1s
      0     0 183549.347    0   38 221284.431 183549.347  17.1%     -    1s
      0     2 183549.347    0   38 221284.431 183549.347  17.1%     -    1s
 H   12    14                    218597.53610 183549.347  16.0%   155    1s
@@ -107,7 +107,7 @@ Cutting planes:
   RLT: 43
   Relax-and-lift: 11
 
-Explored 3962 nodes (406340 simplex iterations) in 3.83 seconds (4.12 work units)
+Explored 3962 nodes (406340 simplex iterations) in 4.63 seconds (4.12 work units)
 Thread count was 24 (of 24 available processors)
 
 Solution count 10: 187159 187197 188110 ... 218598

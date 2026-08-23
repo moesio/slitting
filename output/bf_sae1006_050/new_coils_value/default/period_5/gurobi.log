@@ -1,5 +1,5 @@
 
-Gurobi 13.0.2 (linux64, Python) logging started Thu Aug 13 18:49:34 2026
+Gurobi 13.0.2 (linux64, Python) logging started Sat Aug 22 21:15:39 2026
 
 Set parameter LogToConsole to value 0
 Set parameter Username
@@ -81,7 +81,7 @@ Cutting planes:
   Zero half: 4
   RLT: 7
 
-Explored 97 nodes (3702 simplex iterations) in 0.17 seconds (0.17 work units)
+Explored 97 nodes (3702 simplex iterations) in 0.24 seconds (0.17 work units)
 Thread count was 24 (of 24 available processors)
 
 Solution count 6: 224425 224425 234276 ... 281037

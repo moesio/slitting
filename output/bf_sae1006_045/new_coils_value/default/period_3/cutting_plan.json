@@ -1,4 +1,56 @@
 {
+    "4": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2055.59,
+        "coil_weight": 8009.91,
+        "---strip_produced_weight": 7897.05,
+        "---strip_leftover_weight": 14.35,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 14.35,
+        "---strip_loss_weight": 3.85,
+        "---lateral_leftover_weight": 21.85,
+        "---edge_trim_weight": 72.82,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000045",
+                "part_width": 277.0,
+                "total_strip_weight": 2017.04,
+                "---production_weight": 2016.06,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 0.98
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000827",
+                "part_width": 810.0,
+                "total_strip_weight": 5898.21,
+                "---production_weight": 5880.99,
+                "---leftover_weight": 14.35,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 14.35,
+                "---begin_end_loss_weight": 2.87
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 3.0,
+            "weight": 21.85,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 21.85
+        }
+    },
     "6": {
         "coil_width": 1100.0,
         "coil_ton_value": 4947.45,
@@ -51,6 +103,69 @@
             "---scrap_weight": 271.11
         }
     },
+    "7": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 1780.93,
+        "coil_weight": 6939.65,
+        "---strip_produced_weight": 6860.09,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 3.85,
+        "---lateral_leftover_weight": 12.62,
+        "---edge_trim_weight": 63.09,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000045",
+                "part_width": 277.0,
+                "total_strip_weight": 1747.53,
+                "---production_weight": 1746.55,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 0.98
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000045",
+                "part_width": 277.0,
+                "total_strip_weight": 1747.53,
+                "---production_weight": 1746.55,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 0.98
+            },
+            {
+                "strip_index": 4,
+                "part_code": "9813000455",
+                "part_width": 534.0,
+                "total_strip_weight": 3368.88,
+                "---production_weight": 3366.99,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 1.89
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 2.0,
+            "weight": 12.62,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 12.62
+        }
+    },
     "8": {
         "coil_width": 1100.0,
         "coil_ton_value": 4947.45,
@@ -58,13 +173,65 @@
         "used": 1,
         "used_length": 2466.06,
         "coil_weight": 9609.36,
-        "---strip_produced_weight": 9465.75,
+        "---strip_produced_weight": 9234.34,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.84,
-        "---lateral_leftover_weight": 52.41,
+        "---strip_loss_weight": 3.75,
+        "---lateral_leftover_weight": 283.91,
         "---edge_trim_weight": 87.36,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000045",
+                "part_width": 277.0,
+                "total_strip_weight": 2419.81,
+                "---production_weight": 2418.83,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 0.98
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 6818.28,
+                "---production_weight": 6815.51,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 32.5,
+            "weight": 283.91,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 283.91
+        }
+    },
+    "20": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2215.37,
+        "coil_weight": 8632.48,
+        "---strip_produced_weight": 8493.34,
+        "---strip_leftover_weight": 9.74,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 9.74,
+        "---strip_loss_weight": 3.84,
+        "---lateral_leftover_weight": 47.09,
+        "---edge_trim_weight": 78.48,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -72,8 +239,8 @@
                 "strip_index": 1,
                 "part_code": "9813000455",
                 "part_width": 534.0,
-                "total_strip_weight": 4664.91,
-                "---production_weight": 4663.02,
+                "total_strip_weight": 4190.68,
+                "---production_weight": 4188.79,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -83,11 +250,11 @@
                 "strip_index": 3,
                 "part_code": "9813000803",
                 "part_width": 550.0,
-                "total_strip_weight": 4804.68,
-                "---production_weight": 4802.73,
-                "---leftover_weight": 0.0,
+                "total_strip_weight": 4316.24,
+                "---production_weight": 4304.55,
+                "---leftover_weight": 9.74,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 9.74,
                 "---begin_end_loss_weight": 1.95
             }
         ],
@@ -98,25 +265,25 @@
         },
         "lateral_leftover": {
             "width": 6.0,
-            "weight": 52.41,
+            "weight": 47.09,
             "---retail_weight": 0.0,
-            "---scrap_weight": 52.41
+            "---scrap_weight": 47.09
         }
     },
-    "17": {
+    "28": {
         "coil_width": 1100.0,
         "coil_ton_value": 4947.45,
         "processed": 0,
         "used": 1,
-        "used_length": 2205.2,
-        "coil_weight": 8592.88,
-        "---strip_produced_weight": 8484.68,
-        "---strip_leftover_weight": 2.8,
+        "used_length": 2028.27,
+        "coil_weight": 7903.45,
+        "---strip_produced_weight": 7592.73,
+        "---strip_leftover_weight": 1.62,
         "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 2.8,
-        "---strip_loss_weight": 3.85,
-        "---lateral_leftover_weight": 23.44,
-        "---edge_trim_weight": 78.12,
+        "------strip_scrap_weight": 1.62,
+        "---strip_loss_weight": 3.75,
+        "---lateral_leftover_weight": 233.51,
+        "---edge_trim_weight": 71.85,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -124,8 +291,60 @@
                 "strip_index": 1,
                 "part_code": "9813000045",
                 "part_width": 277.0,
-                "total_strip_weight": 2163.84,
-                "---production_weight": 2162.86,
+                "total_strip_weight": 1990.23,
+                "---production_weight": 1987.63,
+                "---leftover_weight": 1.62,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 1.62,
+                "---begin_end_loss_weight": 0.98
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 5607.86,
+                "---production_weight": 5605.09,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 32.5,
+            "weight": 233.51,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 233.51
+        }
+    },
+    "35": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2255.85,
+        "coil_weight": 8790.23,
+        "---strip_produced_weight": 8682.08,
+        "---strip_leftover_weight": 0.41,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.41,
+        "---strip_loss_weight": 3.85,
+        "---lateral_leftover_weight": 23.97,
+        "---edge_trim_weight": 79.91,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000045",
+                "part_width": 277.0,
+                "total_strip_weight": 2213.54,
+                "---production_weight": 2212.56,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -135,11 +354,11 @@
                 "strip_index": 3,
                 "part_code": "9813000827",
                 "part_width": 810.0,
-                "total_strip_weight": 6327.48,
-                "---production_weight": 6321.82,
-                "---leftover_weight": 2.8,
+                "total_strip_weight": 6472.81,
+                "---production_weight": 6469.53,
+                "---leftover_weight": 0.41,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 2.8,
+                "------scrap_leftover_weight": 0.41,
                 "---begin_end_loss_weight": 2.87
             }
         ],
@@ -150,61 +369,9 @@
         },
         "lateral_leftover": {
             "width": 3.0,
-            "weight": 23.44,
+            "weight": 23.97,
             "---retail_weight": 0.0,
-            "---scrap_weight": 23.44
-        }
-    },
-    "30": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2292.21,
-        "coil_weight": 8931.91,
-        "---strip_produced_weight": 8668.29,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.78,
-        "---lateral_leftover_weight": 178.64,
-        "---edge_trim_weight": 81.2,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000455",
-                "part_width": 534.0,
-                "total_strip_weight": 4336.04,
-                "---production_weight": 4334.14,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.89
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000455",
-                "part_width": 534.0,
-                "total_strip_weight": 4336.04,
-                "---production_weight": 4334.14,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.89
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 22.0,
-            "weight": 178.64,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 178.64
+            "---scrap_weight": 23.97
         }
     },
     "38": {
@@ -259,110 +426,6 @@
             "---scrap_weight": 264.55
         }
     },
-    "40": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2171.13,
-        "coil_weight": 8460.11,
-        "---strip_produced_weight": 8197.02,
-        "---strip_leftover_weight": 13.19,
-        "------strip_retail_weight": 13.19,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.78,
-        "---lateral_leftover_weight": 169.2,
-        "---edge_trim_weight": 76.91,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000455",
-                "part_width": 534.0,
-                "total_strip_weight": 4107.0,
-                "---production_weight": 4105.11,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.89
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000455",
-                "part_width": 534.0,
-                "total_strip_weight": 4107.0,
-                "---production_weight": 4091.92,
-                "---leftover_weight": 13.19,
-                "------retail_leftover_weight": 13.19,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.89
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 22.0,
-            "weight": 169.2,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 169.2
-        }
-    },
-    "47": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2457.8,
-        "coil_weight": 9577.17,
-        "---strip_produced_weight": 9203.4,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 282.96,
-        "---edge_trim_weight": 87.07,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000045",
-                "part_width": 277.0,
-                "total_strip_weight": 2411.71,
-                "---production_weight": 2410.72,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 0.98
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 6795.44,
-                "---production_weight": 6792.67,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 32.5,
-            "weight": 282.96,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 282.96
-        }
-    },
     "50": {
         "coil_width": 1100.0,
         "coil_ton_value": 4947.45,
@@ -415,20 +478,72 @@
             "---scrap_weight": 261.1
         }
     },
-    "61": {
+    "55": {
         "coil_width": 1100.0,
         "coil_ton_value": 4947.45,
         "processed": 0,
         "used": 1,
-        "used_length": 1967.2,
-        "coil_weight": 7665.46,
-        "---strip_produced_weight": 7365.55,
+        "used_length": 1850.15,
+        "coil_weight": 7209.37,
+        "---strip_produced_weight": 6531.57,
+        "---strip_leftover_weight": 5.76,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 5.76,
+        "---strip_loss_weight": 3.54,
+        "---lateral_leftover_weight": 602.97,
+        "---edge_trim_weight": 65.54,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000465",
+                "part_width": 673.0,
+                "total_strip_weight": 4410.82,
+                "---production_weight": 4408.44,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.38
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000906",
+                "part_width": 325.0,
+                "total_strip_weight": 2130.04,
+                "---production_weight": 2123.13,
+                "---leftover_weight": 5.76,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 5.76,
+                "---begin_end_loss_weight": 1.15
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 92.0,
+            "weight": 602.97,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 602.97
+        }
+    },
+    "58": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2230.71,
+        "coil_weight": 8692.29,
+        "---strip_produced_weight": 8352.71,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
         "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 226.48,
-        "---edge_trim_weight": 69.69,
+        "---lateral_leftover_weight": 256.82,
+        "---edge_trim_weight": 79.02,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -436,8 +551,8 @@
                 "strip_index": 1,
                 "part_code": "9813000045",
                 "part_width": 277.0,
-                "total_strip_weight": 1930.3,
-                "---production_weight": 1929.32,
+                "total_strip_weight": 2188.88,
+                "---production_weight": 2187.9,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -447,8 +562,8 @@
                 "strip_index": 3,
                 "part_code": "9813000915",
                 "part_width": 780.5,
-                "total_strip_weight": 5438.99,
-                "---production_weight": 5436.23,
+                "total_strip_weight": 6167.57,
+                "---production_weight": 6164.81,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -462,25 +577,233 @@
         },
         "lateral_leftover": {
             "width": 32.5,
-            "weight": 226.48,
+            "weight": 256.82,
             "---retail_weight": 0.0,
-            "---scrap_weight": 226.48
+            "---scrap_weight": 256.82
         }
     },
-    "67": {
+    "70": {
         "coil_width": 1100.0,
         "coil_ton_value": 4947.45,
         "processed": 0,
         "used": 1,
-        "used_length": 1929.48,
-        "coil_weight": 7518.5,
-        "---strip_produced_weight": 6791.28,
-        "---strip_leftover_weight": 388.58,
-        "------strip_retail_weight": 379.86,
-        "------strip_scrap_weight": 8.72,
+        "used_length": 1738.19,
+        "coil_weight": 6773.12,
+        "---strip_produced_weight": 6562.84,
+        "---strip_leftover_weight": 9.46,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 9.46,
+        "---strip_loss_weight": 3.78,
+        "---lateral_leftover_weight": 135.46,
+        "---edge_trim_weight": 61.57,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000455",
+                "part_width": 534.0,
+                "total_strip_weight": 3288.04,
+                "---production_weight": 3286.15,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 1.89
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000455",
+                "part_width": 534.0,
+                "total_strip_weight": 3288.04,
+                "---production_weight": 3276.69,
+                "---leftover_weight": 9.46,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 9.46,
+                "---begin_end_loss_weight": 1.89
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 22.0,
+            "weight": 135.46,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 135.46
+        }
+    },
+    "72": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 1886.49,
+        "coil_weight": 7350.99,
+        "---strip_produced_weight": 7063.23,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 3.75,
+        "---lateral_leftover_weight": 217.19,
+        "---edge_trim_weight": 66.83,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000045",
+                "part_width": 277.0,
+                "total_strip_weight": 1851.11,
+                "---production_weight": 1850.13,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 0.98
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 5215.86,
+                "---production_weight": 5213.1,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 32.5,
+            "weight": 217.19,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 217.19
+        }
+    },
+    "75": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2332.39,
+        "coil_weight": 9088.48,
+        "---strip_produced_weight": 8733.59,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 3.75,
+        "---lateral_leftover_weight": 268.52,
+        "---edge_trim_weight": 82.62,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000045",
+                "part_width": 277.0,
+                "total_strip_weight": 2288.64,
+                "---production_weight": 2287.66,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 0.98
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 6448.69,
+                "---production_weight": 6445.92,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 32.5,
+            "weight": 268.52,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 268.52
+        }
+    },
+    "85": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2344.05,
+        "coil_weight": 9133.93,
+        "---strip_produced_weight": 8987.49,
+        "---strip_leftover_weight": 9.74,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 9.74,
+        "---strip_loss_weight": 3.84,
+        "---lateral_leftover_weight": 49.82,
+        "---edge_trim_weight": 83.04,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000455",
+                "part_width": 534.0,
+                "total_strip_weight": 4434.11,
+                "---production_weight": 4432.22,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 1.89
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000803",
+                "part_width": 550.0,
+                "total_strip_weight": 4566.97,
+                "---production_weight": 4555.28,
+                "---leftover_weight": 9.74,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 9.74,
+                "---begin_end_loss_weight": 1.95
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1100.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 6.0,
+            "weight": 49.82,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 49.82
+        }
+    },
+    "94": {
+        "coil_width": 1100.0,
+        "coil_ton_value": 4947.45,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2037.5,
+        "coil_weight": 7939.41,
+        "---strip_produced_weight": 6610.51,
+        "---strip_leftover_weight": 971.51,
+        "------strip_retail_weight": 969.69,
+        "------strip_scrap_weight": 1.83,
         "---strip_loss_weight": 3.72,
-        "---lateral_leftover_weight": 266.56,
-        "---edge_trim_weight": 68.35,
+        "---lateral_leftover_weight": 281.49,
+        "---edge_trim_weight": 72.18,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -488,21 +811,21 @@
                 "strip_index": 1,
                 "part_code": "9813000467",
                 "part_width": 726.0,
-                "total_strip_weight": 4962.21,
-                "---production_weight": 4950.92,
-                "---leftover_weight": 8.72,
+                "total_strip_weight": 5240.01,
+                "---production_weight": 5235.61,
+                "---leftover_weight": 1.83,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 8.72,
+                "------scrap_leftover_weight": 1.83,
                 "---begin_end_loss_weight": 2.57
             },
             {
                 "strip_index": 3,
                 "part_code": "9813000906",
                 "part_width": 325.0,
-                "total_strip_weight": 2221.37,
-                "---production_weight": 1840.36,
-                "---leftover_weight": 379.86,
-                "------retail_leftover_weight": 379.86,
+                "total_strip_weight": 2345.73,
+                "---production_weight": 1374.9,
+                "---leftover_weight": 969.69,
+                "------retail_leftover_weight": 969.69,
                 "------scrap_leftover_weight": 0.0,
                 "---begin_end_loss_weight": 1.15
             }
@@ -514,233 +837,25 @@
         },
         "lateral_leftover": {
             "width": 39.0,
-            "weight": 266.56,
+            "weight": 281.49,
             "---retail_weight": 0.0,
-            "---scrap_weight": 266.56
+            "---scrap_weight": 281.49
         }
     },
-    "68": {
+    "96": {
         "coil_width": 1100.0,
         "coil_ton_value": 4947.45,
         "processed": 0,
         "used": 1,
-        "used_length": 1936.78,
-        "coil_weight": 7546.94,
-        "---strip_produced_weight": 7251.61,
-        "---strip_leftover_weight": 0.0,
+        "used_length": 2327.47,
+        "coil_weight": 9069.31,
+        "---strip_produced_weight": 8926.36,
+        "---strip_leftover_weight": 7.19,
         "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 222.98,
-        "---edge_trim_weight": 68.61,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000045",
-                "part_width": 277.0,
-                "total_strip_weight": 1900.46,
-                "---production_weight": 1899.48,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 0.98
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 5354.9,
-                "---production_weight": 5352.13,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 32.5,
-            "weight": 222.98,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 222.98
-        }
-    },
-    "70": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 1738.19,
-        "coil_weight": 6773.12,
-        "---strip_produced_weight": 6507.69,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 200.11,
-        "---edge_trim_weight": 61.57,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000045",
-                "part_width": 277.0,
-                "total_strip_weight": 1705.59,
-                "---production_weight": 1704.61,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 0.98
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 4805.84,
-                "---production_weight": 4803.07,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 32.5,
-            "weight": 200.11,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 200.11
-        }
-    },
-    "71": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 1746.45,
-        "coil_weight": 6805.29,
-        "---strip_produced_weight": 6538.61,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 201.07,
-        "---edge_trim_weight": 61.87,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000045",
-                "part_width": 277.0,
-                "total_strip_weight": 1713.7,
-                "---production_weight": 1712.71,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 0.98
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 4828.66,
-                "---production_weight": 4825.9,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 32.5,
-            "weight": 201.07,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 201.07
-        }
-    },
-    "74": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2095.71,
-        "coil_weight": 8166.24,
-        "---strip_produced_weight": 7846.98,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 241.28,
-        "---edge_trim_weight": 74.24,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000045",
-                "part_width": 277.0,
-                "total_strip_weight": 2056.41,
-                "---production_weight": 2055.43,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 0.98
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 5794.32,
-                "---production_weight": 5791.55,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 32.5,
-            "weight": 241.28,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 241.28
-        }
-    },
-    "75": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2332.39,
-        "coil_weight": 9088.48,
-        "---strip_produced_weight": 8952.44,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
+        "------strip_scrap_weight": 7.19,
         "---strip_loss_weight": 3.84,
-        "---lateral_leftover_weight": 49.57,
-        "---edge_trim_weight": 82.62,
+        "---lateral_leftover_weight": 49.47,
+        "---edge_trim_weight": 82.45,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -748,22 +863,22 @@
                 "strip_index": 1,
                 "part_code": "9813000455",
                 "part_width": 534.0,
-                "total_strip_weight": 4412.04,
-                "---production_weight": 4410.15,
-                "---leftover_weight": 0.0,
+                "total_strip_weight": 4402.74,
+                "---production_weight": 4398.7,
+                "---leftover_weight": 2.15,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 2.15,
                 "---begin_end_loss_weight": 1.89
             },
             {
                 "strip_index": 3,
                 "part_code": "9813000803",
                 "part_width": 550.0,
-                "total_strip_weight": 4544.24,
-                "---production_weight": 4542.29,
-                "---leftover_weight": 0.0,
+                "total_strip_weight": 4534.66,
+                "---production_weight": 4527.67,
+                "---leftover_weight": 5.04,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 5.04,
                 "---begin_end_loss_weight": 1.95
             }
         ],
@@ -774,113 +889,9 @@
         },
         "lateral_leftover": {
             "width": 6.0,
-            "weight": 49.57,
+            "weight": 49.47,
             "---retail_weight": 0.0,
-            "---scrap_weight": 49.57
-        }
-    },
-    "85": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2344.05,
-        "coil_weight": 9133.93,
-        "---strip_produced_weight": 8774.07,
-        "---strip_leftover_weight": 3.21,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 3.21,
-        "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 269.87,
-        "---edge_trim_weight": 83.04,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000045",
-                "part_width": 277.0,
-                "total_strip_weight": 2300.09,
-                "---production_weight": 2295.9,
-                "---leftover_weight": 3.21,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 3.21,
-                "---begin_end_loss_weight": 0.98
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 6480.94,
-                "---production_weight": 6478.17,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 32.5,
-            "weight": 269.87,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 269.87
-        }
-    },
-    "96": {
-        "coil_width": 1100.0,
-        "coil_ton_value": 4947.45,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2327.47,
-        "coil_weight": 9069.31,
-        "---strip_produced_weight": 8713.96,
-        "---strip_leftover_weight": 1.2,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 1.2,
-        "---strip_loss_weight": 3.75,
-        "---lateral_leftover_weight": 267.96,
-        "---edge_trim_weight": 82.45,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000045",
-                "part_width": 277.0,
-                "total_strip_weight": 2283.82,
-                "---production_weight": 2282.84,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 0.98
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 6435.09,
-                "---production_weight": 6431.12,
-                "---leftover_weight": 1.2,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 1.2,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1100.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 32.5,
-            "weight": 267.96,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 267.96
+            "---scrap_weight": 49.47
         }
     },
     "98": {
@@ -924,20 +935,20 @@
             "---scrap_weight": 207.67
         }
     },
-    "102": {
+    "105": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
         "processed": 0,
         "used": 1,
-        "used_length": 3015.43,
-        "coil_weight": 8652.32,
-        "---strip_produced_weight": 8334.44,
+        "used_length": 2325.46,
+        "coil_weight": 6672.55,
+        "---strip_produced_weight": 6426.77,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
         "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 208.3,
-        "---edge_trim_weight": 106.82,
+        "---lateral_leftover_weight": 160.64,
+        "---edge_trim_weight": 82.38,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -945,8 +956,8 @@
                 "strip_index": 1,
                 "part_code": "9813000915",
                 "part_width": 780.5,
-                "total_strip_weight": 8337.2,
-                "---production_weight": 8334.44,
+                "total_strip_weight": 6429.54,
+                "---production_weight": 6426.77,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -960,25 +971,25 @@
         },
         "lateral_leftover": {
             "width": 19.5,
-            "weight": 208.3,
+            "weight": 160.64,
             "---retail_weight": 0.0,
-            "---scrap_weight": 208.3
+            "---scrap_weight": 160.64
         }
     },
-    "113": {
+    "110": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
         "processed": 0,
         "used": 1,
-        "used_length": 2331.02,
-        "coil_weight": 6688.51,
-        "---strip_produced_weight": 6442.15,
+        "used_length": 2558.28,
+        "coil_weight": 7340.58,
+        "---strip_produced_weight": 7070.47,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
         "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 161.02,
-        "---edge_trim_weight": 82.57,
+        "---lateral_leftover_weight": 176.72,
+        "---edge_trim_weight": 90.62,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -986,8 +997,8 @@
                 "strip_index": 1,
                 "part_code": "9813000915",
                 "part_width": 780.5,
-                "total_strip_weight": 6444.92,
-                "---production_weight": 6442.15,
+                "total_strip_weight": 7073.24,
+                "---production_weight": 7070.47,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -1001,9 +1012,50 @@
         },
         "lateral_leftover": {
             "width": 19.5,
-            "weight": 161.02,
+            "weight": 176.72,
             "---retail_weight": 0.0,
-            "---scrap_weight": 161.02
+            "---scrap_weight": 176.72
+        }
+    },
+    "111": {
+        "coil_width": 810.0,
+        "coil_ton_value": 5173.98,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2937.85,
+        "coil_weight": 8429.71,
+        "---strip_produced_weight": 8119.94,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 2.76,
+        "---lateral_leftover_weight": 202.94,
+        "---edge_trim_weight": 104.07,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 8122.7,
+                "---production_weight": 8119.94,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 810.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 19.5,
+            "weight": 202.94,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 202.94
         }
     },
     "117": {
@@ -1170,6 +1222,88 @@
             "---scrap_weight": 192.03
         }
     },
+    "124": {
+        "coil_width": 810.0,
+        "coil_ton_value": 5173.98,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2079.32,
+        "coil_weight": 5966.28,
+        "---strip_produced_weight": 5746.22,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 2.76,
+        "---lateral_leftover_weight": 143.63,
+        "---edge_trim_weight": 73.66,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 5748.99,
+                "---production_weight": 5746.22,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 810.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 19.5,
+            "weight": 143.63,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 143.63
+        }
+    },
+    "135": {
+        "coil_width": 810.0,
+        "coil_ton_value": 5173.98,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2195.53,
+        "coil_weight": 6299.73,
+        "---strip_produced_weight": 6066.55,
+        "---strip_leftover_weight": 0.98,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.98,
+        "---strip_loss_weight": 2.76,
+        "---lateral_leftover_weight": 151.66,
+        "---edge_trim_weight": 77.77,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 6070.3,
+                "---production_weight": 6066.55,
+                "---leftover_weight": 0.98,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.98,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 810.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 19.5,
+            "weight": 151.66,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 151.66
+        }
+    },
     "137": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
@@ -1293,6 +1427,47 @@
             "---scrap_weight": 191.03
         }
     },
+    "144": {
+        "coil_width": 810.0,
+        "coil_ton_value": 5173.98,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2983.51,
+        "coil_weight": 8560.72,
+        "---strip_produced_weight": 8246.18,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 2.76,
+        "---lateral_leftover_weight": 206.09,
+        "---edge_trim_weight": 105.69,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000915",
+                "part_width": 780.5,
+                "total_strip_weight": 8248.94,
+                "---production_weight": 8246.18,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.76
+            }
+        ],
+        "rolled_leftover": {
+            "width": 810.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 19.5,
+            "weight": 206.09,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 206.09
+        }
+    },
     "145": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
@@ -1375,20 +1550,20 @@
             "---scrap_weight": 194.26
         }
     },
-    "150": {
+    "151": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
         "processed": 0,
         "used": 1,
-        "used_length": 2235.04,
-        "coil_weight": 6413.1,
-        "---strip_produced_weight": 6176.77,
+        "used_length": 2643.45,
+        "coil_weight": 7584.96,
+        "---strip_produced_weight": 7305.95,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
         "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 154.39,
-        "---edge_trim_weight": 79.17,
+        "---lateral_leftover_weight": 182.6,
+        "---edge_trim_weight": 93.64,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -1396,8 +1571,8 @@
                 "strip_index": 1,
                 "part_code": "9813000915",
                 "part_width": 780.5,
-                "total_strip_weight": 6179.54,
-                "---production_weight": 6176.77,
+                "total_strip_weight": 7308.72,
+                "---production_weight": 7305.95,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -1411,25 +1586,25 @@
         },
         "lateral_leftover": {
             "width": 19.5,
-            "weight": 154.39,
+            "weight": 182.6,
             "---retail_weight": 0.0,
-            "---scrap_weight": 154.39
+            "---scrap_weight": 182.6
         }
     },
-    "157": {
+    "152": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
         "processed": 0,
         "used": 1,
-        "used_length": 2651.24,
-        "coil_weight": 7607.31,
-        "---strip_produced_weight": 7327.49,
+        "used_length": 2735.56,
+        "coil_weight": 7849.27,
+        "---strip_produced_weight": 7560.64,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
         "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 183.14,
-        "---edge_trim_weight": 93.92,
+        "---lateral_leftover_weight": 188.96,
+        "---edge_trim_weight": 96.9,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -1437,8 +1612,8 @@
                 "strip_index": 1,
                 "part_code": "9813000915",
                 "part_width": 780.5,
-                "total_strip_weight": 7330.25,
-                "---production_weight": 7327.49,
+                "total_strip_weight": 7563.4,
+                "---production_weight": 7560.64,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -1452,9 +1627,9 @@
         },
         "lateral_leftover": {
             "width": 19.5,
-            "weight": 183.14,
+            "weight": 188.96,
             "---retail_weight": 0.0,
-            "---scrap_weight": 183.14
+            "---scrap_weight": 188.96
         }
     },
     "158": {
@@ -1539,20 +1714,20 @@
             "---scrap_weight": 198.71
         }
     },
-    "162": {
+    "175": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
         "processed": 0,
         "used": 1,
-        "used_length": 2052.36,
-        "coil_weight": 5888.94,
-        "---strip_produced_weight": 5671.7,
+        "used_length": 2710.01,
+        "coil_weight": 7775.96,
+        "---strip_produced_weight": 7490.0,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
         "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 141.77,
-        "---edge_trim_weight": 72.7,
+        "---lateral_leftover_weight": 187.2,
+        "---edge_trim_weight": 96.0,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -1560,8 +1735,8 @@
                 "strip_index": 1,
                 "part_code": "9813000915",
                 "part_width": 780.5,
-                "total_strip_weight": 5674.47,
-                "---production_weight": 5671.7,
+                "total_strip_weight": 7492.76,
+                "---production_weight": 7490.0,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -1575,25 +1750,25 @@
         },
         "lateral_leftover": {
             "width": 19.5,
-            "weight": 141.77,
+            "weight": 187.2,
             "---retail_weight": 0.0,
-            "---scrap_weight": 141.77
+            "---scrap_weight": 187.2
         }
     },
-    "185": {
+    "184": {
         "coil_width": 810.0,
         "coil_ton_value": 5173.98,
         "processed": 0,
         "used": 1,
-        "used_length": 2482.46,
-        "coil_weight": 7123.03,
-        "---strip_produced_weight": 6860.85,
+        "used_length": 2959.76,
+        "coil_weight": 8492.56,
+        "---strip_produced_weight": 8180.5,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
         "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 171.48,
-        "---edge_trim_weight": 87.94,
+        "---lateral_leftover_weight": 204.45,
+        "---edge_trim_weight": 104.85,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -1601,8 +1776,8 @@
                 "strip_index": 1,
                 "part_code": "9813000915",
                 "part_width": 780.5,
-                "total_strip_weight": 6863.61,
-                "---production_weight": 6860.85,
+                "total_strip_weight": 8183.26,
+                "---production_weight": 8180.5,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -1616,132 +1791,9 @@
         },
         "lateral_leftover": {
             "width": 19.5,
-            "weight": 171.48,
+            "weight": 204.45,
             "---retail_weight": 0.0,
-            "---scrap_weight": 171.48
-        }
-    },
-    "190": {
-        "coil_width": 810.0,
-        "coil_ton_value": 5173.98,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2625.67,
-        "coil_weight": 7533.94,
-        "---strip_produced_weight": 7531.07,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 2.87,
-        "---lateral_leftover_weight": 0.0,
-        "---edge_trim_weight": 0.0,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000827",
-                "part_width": 810.0,
-                "total_strip_weight": 7533.94,
-                "---production_weight": 7531.07,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.87
-            }
-        ],
-        "rolled_leftover": {
-            "width": 810.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 0.0,
-            "weight": 0.0,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 0.0
-        }
-    },
-    "192": {
-        "coil_width": 810.0,
-        "coil_ton_value": 5173.98,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2342.5,
-        "coil_weight": 6721.45,
-        "---strip_produced_weight": 6718.58,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 2.87,
-        "---lateral_leftover_weight": 0.0,
-        "---edge_trim_weight": 0.0,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000827",
-                "part_width": 810.0,
-                "total_strip_weight": 6721.45,
-                "---production_weight": 6718.58,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.87
-            }
-        ],
-        "rolled_leftover": {
-            "width": 810.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 0.0,
-            "weight": 0.0,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 0.0
-        }
-    },
-    "197": {
-        "coil_width": 810.0,
-        "coil_ton_value": 5173.98,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2811.87,
-        "coil_weight": 8068.21,
-        "---strip_produced_weight": 7771.6,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 194.23,
-        "---edge_trim_weight": 99.61,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 7774.37,
-                "---production_weight": 7771.6,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
-            }
-        ],
-        "rolled_leftover": {
-            "width": 810.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 19.5,
-            "weight": 194.23,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 194.23
+            "---scrap_weight": 204.45
         }
     },
     "198": {
@@ -1751,26 +1803,26 @@
         "used": 1,
         "used_length": 2880.66,
         "coil_weight": 8265.6,
-        "---strip_produced_weight": 7961.8,
-        "---strip_leftover_weight": 0.0,
+        "---strip_produced_weight": 8248.38,
+        "---strip_leftover_weight": 14.35,
         "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 2.76,
-        "---lateral_leftover_weight": 198.99,
-        "---edge_trim_weight": 102.04,
+        "------strip_scrap_weight": 14.35,
+        "---strip_loss_weight": 2.87,
+        "---lateral_leftover_weight": 0.0,
+        "---edge_trim_weight": 0.0,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
             {
                 "strip_index": 1,
-                "part_code": "9813000915",
-                "part_width": 780.5,
-                "total_strip_weight": 7964.57,
-                "---production_weight": 7961.8,
-                "---leftover_weight": 0.0,
+                "part_code": "9813000827",
+                "part_width": 810.0,
+                "total_strip_weight": 8265.6,
+                "---production_weight": 8248.38,
+                "---leftover_weight": 14.35,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.76
+                "------scrap_leftover_weight": 14.35,
+                "---begin_end_loss_weight": 2.87
             }
         ],
         "rolled_leftover": {
@@ -1779,10 +1831,10 @@
             "length": 0.0
         },
         "lateral_leftover": {
-            "width": 19.5,
-            "weight": 198.99,
+            "width": 0.0,
+            "weight": 0.0,
             "---retail_weight": 0.0,
-            "---scrap_weight": 198.99
+            "---scrap_weight": 0.0
         }
     },
     "202": {
@@ -1833,12 +1885,12 @@
         "used": 1,
         "used_length": 2178.81,
         "coil_weight": 9647.75,
-        "---strip_produced_weight": 9512.17,
+        "---strip_produced_weight": 9435.03,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 4.37,
-        "---lateral_leftover_weight": 54.03,
+        "---strip_loss_weight": 4.33,
+        "---lateral_leftover_weight": 131.21,
         "---edge_trim_weight": 77.18,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
@@ -1856,62 +1908,10 @@
             },
             {
                 "strip_index": 3,
-                "part_code": "9813000873",
-                "part_width": 560.0,
-                "total_strip_weight": 4322.19,
-                "---production_weight": 4320.21,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.98
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1250.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 7.0,
-            "weight": 54.03,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 54.03
-        }
-    },
-    "223": {
-        "coil_width": 1250.0,
-        "coil_ton_value": 5102.73,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2073.7,
-        "coil_weight": 9182.36,
-        "---strip_produced_weight": 8979.69,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 4.33,
-        "---lateral_leftover_weight": 124.88,
-        "---edge_trim_weight": 73.46,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000465",
-                "part_width": 673.0,
-                "total_strip_weight": 4943.78,
-                "---production_weight": 4941.4,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.38
-            },
-            {
-                "strip_index": 3,
                 "part_code": "9813000803",
                 "part_width": 550.0,
-                "total_strip_weight": 4040.24,
-                "---production_weight": 4038.29,
+                "total_strip_weight": 4245.01,
+                "---production_weight": 4243.06,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -1925,9 +1925,113 @@
         },
         "lateral_leftover": {
             "width": 17.0,
-            "weight": 124.88,
+            "weight": 131.21,
             "---retail_weight": 0.0,
-            "---scrap_weight": 124.88
+            "---scrap_weight": 131.21
+        }
+    },
+    "215": {
+        "coil_width": 1250.0,
+        "coil_ton_value": 5102.73,
+        "processed": 0,
+        "used": 1,
+        "used_length": 1912.61,
+        "coil_weight": 8469.02,
+        "---strip_produced_weight": 8349.47,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 4.37,
+        "---lateral_leftover_weight": 47.43,
+        "---edge_trim_weight": 67.75,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000465",
+                "part_width": 673.0,
+                "total_strip_weight": 4559.72,
+                "---production_weight": 4557.34,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.38
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000873",
+                "part_width": 560.0,
+                "total_strip_weight": 3794.12,
+                "---production_weight": 3792.14,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 1.98
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1250.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 7.0,
+            "weight": 47.43,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 47.43
+        }
+    },
+    "217": {
+        "coil_width": 1250.0,
+        "coil_ton_value": 5102.73,
+        "processed": 0,
+        "used": 1,
+        "used_length": 2187.0,
+        "coil_weight": 9684.03,
+        "---strip_produced_weight": 9545.56,
+        "---strip_leftover_weight": 2.4,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 2.4,
+        "---strip_loss_weight": 4.37,
+        "---lateral_leftover_weight": 54.23,
+        "---edge_trim_weight": 77.47,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000465",
+                "part_width": 673.0,
+                "total_strip_weight": 5213.88,
+                "---production_weight": 5211.5,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.38
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000873",
+                "part_width": 560.0,
+                "total_strip_weight": 4338.45,
+                "---production_weight": 4334.07,
+                "---leftover_weight": 2.4,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 2.4,
+                "---begin_end_loss_weight": 1.98
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1250.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 7.0,
+            "weight": 54.23,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 54.23
         }
     },
     "224": {
@@ -1982,20 +2086,20 @@
             "---scrap_weight": 56.05
         }
     },
-    "253": {
+    "234": {
         "coil_width": 1250.0,
         "coil_ton_value": 5102.73,
         "processed": 0,
         "used": 1,
-        "used_length": 2019.12,
-        "coil_weight": 8940.67,
-        "---strip_produced_weight": 8814.71,
-        "---strip_leftover_weight": 0.0,
+        "used_length": 1888.39,
+        "coil_weight": 8361.78,
+        "---strip_produced_weight": 8167.09,
+        "---strip_leftover_weight": 9.74,
         "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 4.37,
-        "---lateral_leftover_weight": 50.07,
-        "---edge_trim_weight": 71.53,
+        "------strip_scrap_weight": 9.74,
+        "---strip_loss_weight": 4.33,
+        "---lateral_leftover_weight": 113.72,
+        "---edge_trim_weight": 66.89,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -2003,8 +2107,8 @@
                 "strip_index": 1,
                 "part_code": "9813000465",
                 "part_width": 673.0,
-                "total_strip_weight": 4813.66,
-                "---production_weight": 4811.27,
+                "total_strip_weight": 4501.98,
+                "---production_weight": 4499.6,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -2012,14 +2116,14 @@
             },
             {
                 "strip_index": 3,
-                "part_code": "9813000873",
-                "part_width": 560.0,
-                "total_strip_weight": 4005.42,
-                "---production_weight": 4003.44,
-                "---leftover_weight": 0.0,
+                "part_code": "9813000803",
+                "part_width": 550.0,
+                "total_strip_weight": 3679.18,
+                "---production_weight": 3667.49,
+                "---leftover_weight": 9.74,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.98
+                "------scrap_leftover_weight": 9.74,
+                "---begin_end_loss_weight": 1.95
             }
         ],
         "rolled_leftover": {
@@ -2028,10 +2132,62 @@
             "length": 0.0
         },
         "lateral_leftover": {
-            "width": 7.0,
-            "weight": 50.07,
+            "width": 17.0,
+            "weight": 113.72,
             "---retail_weight": 0.0,
-            "---scrap_weight": 50.07
+            "---scrap_weight": 113.72
+        }
+    },
+    "243": {
+        "coil_width": 1250.0,
+        "coil_ton_value": 5102.73,
+        "processed": 0,
+        "used": 1,
+        "used_length": 1581.08,
+        "coil_weight": 7001.03,
+        "---strip_produced_weight": 6755.92,
+        "---strip_leftover_weight": 0.0,
+        "------strip_retail_weight": 0.0,
+        "------strip_scrap_weight": 0.0,
+        "---strip_loss_weight": 4.28,
+        "---lateral_leftover_weight": 184.83,
+        "---edge_trim_weight": 56.01,
+        "---rolled_leftover_weight": 0.0,
+        "---processed_scrap_weight": 0.0,
+        "strips": [
+            {
+                "strip_index": 1,
+                "part_code": "9813000455",
+                "part_width": 534.0,
+                "total_strip_weight": 2990.84,
+                "---production_weight": 2988.95,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 1.89
+            },
+            {
+                "strip_index": 3,
+                "part_code": "9813000465",
+                "part_width": 673.0,
+                "total_strip_weight": 3769.35,
+                "---production_weight": 3766.97,
+                "---leftover_weight": 0.0,
+                "------retail_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 0.0,
+                "---begin_end_loss_weight": 2.38
+            }
+        ],
+        "rolled_leftover": {
+            "width": 1250.0,
+            "weight": 0.0,
+            "length": 0.0
+        },
+        "lateral_leftover": {
+            "width": 33.0,
+            "weight": 184.83,
+            "---retail_weight": 0.0,
+            "---scrap_weight": 184.83
         }
     },
     "261": {
@@ -2041,12 +2197,12 @@
         "used": 1,
         "used_length": 2088.91,
         "coil_weight": 9249.69,
-        "---strip_produced_weight": 9045.56,
+        "---strip_produced_weight": 9119.53,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 4.33,
-        "---lateral_leftover_weight": 125.8,
+        "---strip_loss_weight": 4.37,
+        "---lateral_leftover_weight": 51.8,
         "---edge_trim_weight": 74.0,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
@@ -2064,62 +2220,10 @@
             },
             {
                 "strip_index": 3,
-                "part_code": "9813000803",
-                "part_width": 550.0,
-                "total_strip_weight": 4069.86,
-                "---production_weight": 4067.92,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.95
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1250.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 17.0,
-            "weight": 125.8,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 125.8
-        }
-    },
-    "263": {
-        "coil_width": 1250.0,
-        "coil_ton_value": 5102.73,
-        "processed": 0,
-        "used": 1,
-        "used_length": 2056.53,
-        "coil_weight": 9106.32,
-        "---strip_produced_weight": 8908.48,
-        "---strip_leftover_weight": 69.63,
-        "------strip_retail_weight": 69.63,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 4.37,
-        "---lateral_leftover_weight": 51.0,
-        "---edge_trim_weight": 72.85,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000465",
-                "part_width": 673.0,
-                "total_strip_weight": 4902.84,
-                "---production_weight": 4830.83,
-                "---leftover_weight": 69.63,
-                "------retail_leftover_weight": 69.63,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.38
-            },
-            {
-                "strip_index": 3,
                 "part_code": "9813000873",
                 "part_width": 560.0,
-                "total_strip_weight": 4079.63,
-                "---production_weight": 4077.65,
+                "total_strip_weight": 4143.86,
+                "---production_weight": 4141.88,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -2133,9 +2237,9 @@
         },
         "lateral_leftover": {
             "width": 7.0,
-            "weight": 51.0,
+            "weight": 51.8,
             "---retail_weight": 0.0,
-            "---scrap_weight": 51.0
+            "---scrap_weight": 51.8
         }
     },
     "266": {
@@ -2188,58 +2292,6 @@
             "weight": 53.85,
             "---retail_weight": 0.0,
             "---scrap_weight": 53.85
-        }
-    },
-    "267": {
-        "coil_width": 1250.0,
-        "coil_ton_value": 5102.73,
-        "processed": 0,
-        "used": 1,
-        "used_length": 1428.82,
-        "coil_weight": 6326.83,
-        "---strip_produced_weight": 5042.05,
-        "---strip_leftover_weight": 5.76,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 5.76,
-        "---strip_loss_weight": 3.54,
-        "---lateral_leftover_weight": 1224.87,
-        "---edge_trim_weight": 50.61,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000465",
-                "part_width": 673.0,
-                "total_strip_weight": 3406.37,
-                "---production_weight": 3403.98,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.38
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000906",
-                "part_width": 325.0,
-                "total_strip_weight": 1644.98,
-                "---production_weight": 1638.07,
-                "---leftover_weight": 5.76,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 5.76,
-                "---begin_end_loss_weight": 1.15
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1250.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 242.0,
-            "weight": 1224.87,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 1224.87
         }
     },
     "275": {
@@ -2398,20 +2450,20 @@
             "---scrap_weight": 51.16
         }
     },
-    "287": {
+    "294": {
         "coil_width": 1250.0,
         "coil_ton_value": 5102.73,
         "processed": 0,
         "used": 1,
-        "used_length": 2125.9,
-        "coil_weight": 9413.5,
-        "---strip_produced_weight": 9278.83,
-        "---strip_leftover_weight": 2.28,
+        "used_length": 2216.1,
+        "coil_weight": 9812.88,
+        "---strip_produced_weight": 9673.93,
+        "---strip_leftover_weight": 1.13,
         "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 2.28,
+        "------strip_scrap_weight": 1.13,
         "---strip_loss_weight": 4.37,
-        "---lateral_leftover_weight": 52.72,
-        "---edge_trim_weight": 75.31,
+        "---lateral_leftover_weight": 54.95,
+        "---edge_trim_weight": 78.5,
         "---rolled_leftover_weight": 0.0,
         "---processed_scrap_weight": 0.0,
         "strips": [
@@ -2419,22 +2471,22 @@
                 "strip_index": 1,
                 "part_code": "9813000465",
                 "part_width": 673.0,
-                "total_strip_weight": 5068.23,
-                "---production_weight": 5065.84,
-                "---leftover_weight": 0.0,
+                "total_strip_weight": 5283.25,
+                "---production_weight": 5279.74,
+                "---leftover_weight": 1.13,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
+                "------scrap_leftover_weight": 1.13,
                 "---begin_end_loss_weight": 2.38
             },
             {
                 "strip_index": 3,
                 "part_code": "9813000873",
                 "part_width": 560.0,
-                "total_strip_weight": 4217.25,
-                "---production_weight": 4212.99,
-                "---leftover_weight": 2.28,
+                "total_strip_weight": 4396.17,
+                "---production_weight": 4394.19,
+                "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 2.28,
+                "------scrap_leftover_weight": 0.0,
                 "---begin_end_loss_weight": 1.98
             }
         ],
@@ -2445,112 +2497,19 @@
         },
         "lateral_leftover": {
             "width": 7.0,
-            "weight": 52.72,
+            "weight": 54.95,
             "---retail_weight": 0.0,
-            "---scrap_weight": 52.72
-        }
-    },
-    "295": {
-        "coil_width": 1250.0,
-        "coil_ton_value": 5102.73,
-        "processed": 0,
-        "used": 1,
-        "used_length": 1959.97,
-        "coil_weight": 8678.75,
-        "---strip_produced_weight": 8486.96,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 4.33,
-        "---lateral_leftover_weight": 118.03,
-        "---edge_trim_weight": 69.43,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 0.0,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000465",
-                "part_width": 673.0,
-                "total_strip_weight": 4672.64,
-                "---production_weight": 4670.25,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.38
-            },
-            {
-                "strip_index": 3,
-                "part_code": "9813000803",
-                "part_width": 550.0,
-                "total_strip_weight": 3818.65,
-                "---production_weight": 3816.7,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.95
-            }
-        ],
-        "rolled_leftover": {
-            "width": 1250.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 17.0,
-            "weight": 118.03,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 118.03
+            "---scrap_weight": 54.95
         }
     },
     "298": {
-        "coil_width": 810.0,
-        "coil_ton_value": 4947.45,
-        "processed": 1,
-        "used": 1,
-        "used_length": 10.56,
-        "coil_weight": 30.3,
-        "---strip_produced_weight": 27.43,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 2.87,
-        "---lateral_leftover_weight": 0.0,
-        "---edge_trim_weight": 0.0,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 2.87,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000827",
-                "part_width": 810.0,
-                "total_strip_weight": 30.3,
-                "---production_weight": 27.43,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 2.87
-            }
-        ],
-        "rolled_leftover": {
-            "width": 810.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 0.0,
-            "weight": 0.0,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 0.0
-        }
-    },
-    "299": {
         "coil_width": 726.0,
         "coil_ton_value": 4947.45,
         "processed": 1,
         "used": 1,
-        "used_length": 168.33,
-        "coil_weight": 432.92,
-        "---strip_produced_weight": 430.35,
+        "used_length": 57.64,
+        "coil_weight": 148.23,
+        "---strip_produced_weight": 145.66,
         "---strip_leftover_weight": 0.0,
         "------strip_retail_weight": 0.0,
         "------strip_scrap_weight": 0.0,
@@ -2564,8 +2523,8 @@
                 "strip_index": 1,
                 "part_code": "9813000467",
                 "part_width": 726.0,
-                "total_strip_weight": 432.92,
-                "---production_weight": 430.35,
+                "total_strip_weight": 148.23,
+                "---production_weight": 145.66,
                 "---leftover_weight": 0.0,
                 "------retail_leftover_weight": 0.0,
                 "------scrap_leftover_weight": 0.0,
@@ -2584,119 +2543,37 @@
             "---scrap_weight": 0.0
         }
     },
-    "300": {
-        "coil_width": 325.0,
-        "coil_ton_value": 4947.45,
-        "processed": 1,
-        "used": 1,
-        "used_length": 23.03,
-        "coil_weight": 26.51,
-        "---strip_produced_weight": 19.6,
-        "---strip_leftover_weight": 5.76,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 5.76,
-        "---strip_loss_weight": 1.15,
-        "---lateral_leftover_weight": 0.0,
-        "---edge_trim_weight": 0.0,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 6.91,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000906",
-                "part_width": 325.0,
-                "total_strip_weight": 26.51,
-                "---production_weight": 19.6,
-                "---leftover_weight": 5.76,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 5.76,
-                "---begin_end_loss_weight": 1.15
-            }
-        ],
-        "rolled_leftover": {
-            "width": 325.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 0.0,
-            "weight": 0.0,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 0.0
-        }
-    },
-    "301": {
+    "299": {
         "coil_width": 550.0,
         "coil_ton_value": 5102.73,
         "processed": 1,
         "used": 1,
-        "used_length": 43.9,
-        "coil_weight": 85.54,
-        "---strip_produced_weight": 79.95,
-        "---strip_leftover_weight": 3.64,
+        "used_length": 31.58,
+        "coil_weight": 61.52,
+        "---strip_produced_weight": 49.83,
+        "---strip_leftover_weight": 9.74,
         "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 3.64,
+        "------strip_scrap_weight": 9.74,
         "---strip_loss_weight": 1.95,
         "---lateral_leftover_weight": 0.0,
         "---edge_trim_weight": 0.0,
         "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 5.59,
+        "---processed_scrap_weight": 11.69,
         "strips": [
             {
                 "strip_index": 1,
                 "part_code": "9813000803",
                 "part_width": 550.0,
-                "total_strip_weight": 85.54,
-                "---production_weight": 79.95,
-                "---leftover_weight": 3.64,
+                "total_strip_weight": 61.52,
+                "---production_weight": 49.83,
+                "---leftover_weight": 9.74,
                 "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 3.64,
+                "------scrap_leftover_weight": 9.74,
                 "---begin_end_loss_weight": 1.95
             }
         ],
         "rolled_leftover": {
             "width": 550.0,
-            "weight": 0.0,
-            "length": 0.0
-        },
-        "lateral_leftover": {
-            "width": 0.0,
-            "weight": 0.0,
-            "---retail_weight": 0.0,
-            "---scrap_weight": 0.0
-        }
-    },
-    "302": {
-        "coil_width": 560.0,
-        "coil_ton_value": 5102.73,
-        "processed": 1,
-        "used": 1,
-        "used_length": 25.19,
-        "coil_weight": 49.97,
-        "---strip_produced_weight": 47.99,
-        "---strip_leftover_weight": 0.0,
-        "------strip_retail_weight": 0.0,
-        "------strip_scrap_weight": 0.0,
-        "---strip_loss_weight": 1.98,
-        "---lateral_leftover_weight": 0.0,
-        "---edge_trim_weight": 0.0,
-        "---rolled_leftover_weight": 0.0,
-        "---processed_scrap_weight": 1.98,
-        "strips": [
-            {
-                "strip_index": 1,
-                "part_code": "9813000873",
-                "part_width": 560.0,
-                "total_strip_weight": 49.97,
-                "---production_weight": 47.99,
-                "---leftover_weight": 0.0,
-                "------retail_leftover_weight": 0.0,
-                "------scrap_leftover_weight": 0.0,
-                "---begin_end_loss_weight": 1.98
-            }
-        ],
-        "rolled_leftover": {
-            "width": 560.0,
             "weight": 0.0,
             "length": 0.0
         },
