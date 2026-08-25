@@ -1,5 +1,3 @@
-#! /home/moesio/workspace/slitting/.venv/bin/python
-
 import os
 import re
 import json
