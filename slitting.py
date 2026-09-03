@@ -48,8 +48,7 @@ if args.objective == 'weighted_loss':
         )
     configuration_name = (
         f"retail_y_{leftover_weights['retail_y']}__"
-        f"retail_v_{leftover_weights['retail_v']}__"        f"retail_v_{leftover_weights['retail_v']}__"
-
+        f"retail_v_{leftover_weights['retail_v']}__"
         f"rolled_leftover_{leftover_weights['rolled_leftover']}"
     )
 else:
