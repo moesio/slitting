@@ -221,8 +221,8 @@ for data_folder in dirs:
         env = gp.Env(empty=True)
         env.setParam('LogFile', str(gurobi_log_path))
         env.setParam('LogToConsole', 0)
-        # env.setParam('TimeLimit', parameters['TimeLimit'].seconds)
-        env.setParam('TimeLimit', 120)
+        env.setParam('TimeLimit', parameters['TimeLimit'].seconds)
+        # env.setParam('TimeLimit', 120)
         env.start()
 
         model = gp.Model(name='slitting',env=env)
